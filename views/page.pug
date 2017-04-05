@@ -2,14 +2,14 @@ extends ./layout.pug
 
 block body
   div.logo
-    img(src='/images/MADE-logo.svg')
+    img(src='/images/logo.png')
   hr
   nav.centered-layout
     ul
       li
         a(href='#') New
       li
-        a(href='#') Sofa&nbsp;&&nbsp;Armchairs
+        a(href='#') Promotions
       li
         a(href='#') Chairs
       li
@@ -26,8 +26,6 @@ block body
         a(href='#') Accessories
       li
         a(href='#') Outdoor
-      li
-        a(href='#') Last&nbsp;chance
   header
     h1(data-wio-id=page.id)
       = page.get('page.title') ? page.get('page.title').asText() : ''
