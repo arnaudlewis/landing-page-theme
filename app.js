@@ -45,7 +45,7 @@ app.route('/preview').get(function(req, res) {
 });
 
 app.route('/').get(function(req, res) {
-  res.redirect('sofas-armchairs');
+  res.redirect('sample-page');
 });
 
 app.route('/:uid').get(function(req, res) {
