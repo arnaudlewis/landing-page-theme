@@ -6,14 +6,6 @@
         "placeholder" : "UID"
       }
     },
-    "category" : {
-      "type" : "Select",
-      "config" : {
-        "options" : [ "New media", "Pictures", "Animations", "Reels" ],
-        "label" : "Category",
-        "placeholder" : "Pick a category..."
-      }
-    },
     "title" : {
       "type" : "StructuredText",
       "config" : {
