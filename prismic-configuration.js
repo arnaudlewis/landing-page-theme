@@ -2,7 +2,7 @@ module.exports = {
 
   // This function will be used to generate links to Prismic.io documents
 
-  apiEndpoint: // Insert your repository endpoint here e.g., 'https://reponame.prismic.io/api',
+  apiEndpoint: 'https://reponame.prismic.io/api',
 
   // This function will be used to generate links to Prismic.io documents
   // As your project grows, you should update this function according to your routes
