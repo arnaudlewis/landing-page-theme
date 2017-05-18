@@ -10,7 +10,7 @@ Change the prismic.io API endpoint in ```prismic-config.js``` (set it to https:/
 
 Go to the prismic.io repository you've just created with the CLI
 
-Populate content for a page, **give it the sample-page uid** , publish
+Populate content for a page, **give it the ```sample-page``` uid** , publish
 
 In your terminal, run the app:
 
